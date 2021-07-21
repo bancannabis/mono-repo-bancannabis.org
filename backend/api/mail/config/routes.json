@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/send-mail",
+        "handler": "mail.signup",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }

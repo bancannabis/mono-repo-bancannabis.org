@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_subscribers",
+  "info": {
+    "name": "newsletter-subscriber",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true,
+      "required": true
+    },
+    "users_permissions_permission": {
+      "plugin": "users-permissions",
+      "model": "permission"
+    }
+  }
+}

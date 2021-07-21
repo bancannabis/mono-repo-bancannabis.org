@@ -1,0 +1,6 @@
+[submodule "frontendORG"]
+	path = frontendORG
+	url = https://github.com/bancannabis/bancannabis.org
+[submodule "backendORG"]
+	path = backendORG
+	url = https://github.com/bancannabis/bancannabis.strapi
